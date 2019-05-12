@@ -76,6 +76,8 @@ public class ChessBoard implements BoardState {
 	public List<BoardState> getLegalMoves() {
 		// TODO Auto-generated method stub
 		List<BoardState> nextMoves = new ArrayList<>();
+		if(!outCome().equals(Outcome.PLAYING))
+			return nextMoves;
 		if(whitesTurn) {
 			for(int i=0;i<boardSize;i++)for(int j=0;j<boardSize;j++) {
 				if(boardString[i][j]>='A' && boardString[i][j]<='Z'){//if white piece , TODO: this if condition can be removed later
@@ -303,7 +305,8 @@ public class ChessBoard implements BoardState {
 			toReturn = toReturn+ boardString[i][j]+" " ;
 			toReturn = toReturn +"\n";
 		}
-		toReturn = toReturn+"_______________________"+(whitesTurn? "white" :"black") + " to play..\n\n";
+		toReturn = toReturn+"_______________________"+(whitesTurn? "white" :"black") 
+				+ " to play..(White score:"+stateScore()*(whitesTurn?1:-1)+")\n\n";
 		return toReturn;
 	}
 
@@ -352,6 +355,14 @@ public class ChessBoard implements BoardState {
 				if(scoreMap.containsKey(boardString[i][j]))
 					score+=scoreMap.get(boardString[i][j]);
 		return score * (whitesTurn? 1 : -1);
+	}
+
+
+	public String getBoardString() {
+		String toReturn = "";
+		for(int i=0;i<8;i++)
+			toReturn+=new String(boardString[i]);
+		return toReturn;
 	}
 	
 }
