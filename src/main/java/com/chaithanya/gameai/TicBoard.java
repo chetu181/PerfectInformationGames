@@ -159,5 +159,10 @@ public class TicBoard implements BoardState{
 	public void setBoardString(String boardString) {
 		this.boardString = boardString;
 	}
+	@Override
+	public int stateScore() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 }
