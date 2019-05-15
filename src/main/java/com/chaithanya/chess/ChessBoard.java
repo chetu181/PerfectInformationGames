@@ -311,14 +311,26 @@ public class ChessBoard implements BoardState {
 
 	@Override
 	public String toString() {
+		String fg,bg;
 		String toReturn = "\n";
 		for(int i=boardSize-1;i>=0;i--) {
-			for(int j=boardSize-1;j>=0;j--)
-			toReturn = toReturn+ boardString[i][j]+" " ;
-			toReturn = toReturn +"\n";
+			for(int j=boardSize-1;j>=0;j--) {
+				fg = "39";
+				char c= boardString[i][j];
+				if(c>='a' && c<='z')
+					fg="30";
+				if(c>='A' && c<='Z')
+					fg="39";
+				bg = (i+j)%2==0?"47":"43";
+				toReturn = toReturn+ (char)27+"["+fg+";"+bg+"m"+ (boardString[i][j]=='.'?' ':boardString[i][j])+" " ;
+				
+			}
+			fg = "39";
+			bg = "49";
+			toReturn = toReturn +(char)27+"["+fg+";"+bg+"m"+ "\n";
 		}
 		toReturn = toReturn+"_______________________"+(whitesTurn? "white" :"black") 
-				+ " to play..(White score:"+stateScore()*(whitesTurn?1:-1)+")\n\n";
+			+ " to play..(White score:"+stateScore()*(whitesTurn?1:-1)+")\n\n";
 		return toReturn;
 	}
 
