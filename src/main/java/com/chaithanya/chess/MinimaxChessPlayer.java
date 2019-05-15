@@ -23,6 +23,7 @@ public class MinimaxChessPlayer implements Player {
 	
 	@Override
 	public BoardState move(BoardState s) {
+		long startTime = System.currentTimeMillis();
 		List<BoardState> nextMoves = s.getLegalMoves();
 		int minNextStateScoreIndex = 0;
 		int minNextStateScore = 2000;
@@ -38,6 +39,8 @@ public class MinimaxChessPlayer implements Player {
 				minValues.add(i);
 			}
 		}
+		long endTime = System.currentTimeMillis();
+		System.out.println("Finished Searching in "+(endTime-startTime)/1000.0+" Seconds.");
 		if(randomise)
 			return nextMoves.get(minValues.get(RandomUtils.nextInt(0, minValues.size())));
 		else

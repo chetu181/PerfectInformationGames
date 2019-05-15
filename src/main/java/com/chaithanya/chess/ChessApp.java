@@ -14,7 +14,7 @@ public class ChessApp {
 		//System.out.println(chessBoard.getLegalMoves());
 		//System.exit(0);
 		
-		Player[] players = {new MinimaxChessPlayer(4),new MinimaxChessPlayer(2)};
+		Player[] players = {new HumanChessPlayer(),new MinimaxChessPlayer(4)};
 		System.out.println(chessBoard);
 		int move;
 		for(move=0; move<1000 && chessBoard.outCome()==Outcome.PLAYING;move++) {
@@ -41,15 +41,17 @@ public class ChessApp {
 	private static void testMinMax() {
 		char[][] boardString = new char[8][8];
 		String board = 
-				"..K.qBNR...P.PPP...P.....P...........................pbp.nbk..nr\n" + 
+				".NBKQB..RPPPPPRPP....NP..............b..p.pp.pp..p..pn.prn.kqb.r\n" + 
 				"" ;
 		for(int i=0;i<8;i++) {
 			boardString[i]=board.substring(8*i, 8*i+8).toCharArray();
 		}							
 		ChessBoard chessBoard = new ChessBoard(boardString, true, false, false);
 		System.out.println(chessBoard);
-		System.out.println(new MinimaxChessPlayer(2).move(chessBoard));
-		
+		long startTime = System.currentTimeMillis();
+		System.out.println(new MinimaxChessPlayer(6).move(chessBoard));
+		long endTime = System.currentTimeMillis();
+		System.out.println("Total time taken: "+(endTime-startTime)/1000.0+" seconds");
 		
 	}
 

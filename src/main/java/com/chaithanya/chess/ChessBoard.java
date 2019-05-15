@@ -19,7 +19,7 @@ public class ChessBoard implements BoardState {
 	//TODO: make this a 2d array
 	public char[][] boardString = new char[8][8];
 	
-	private boolean whitesTurn;
+	public boolean whitesTurn;
 	private boolean whiteKingMoved;
 	private boolean blackKingMoved;
 	
@@ -121,6 +121,8 @@ public class ChessBoard implements BoardState {
 					}
 				}
 			}
+			//TODO: Castling Logic
+			
 		} else  {
 			for(int i=0;i<boardSize;i++)for(int j=0;j<boardSize;j++) {
 				if(boardString[i][j]>='a' && boardString[i][j]<='z'){//if white piece , TODO: this if condition can be removed later
@@ -174,11 +176,14 @@ public class ChessBoard implements BoardState {
 			return;
 		if(dir==2 || dir==6) {//Moving ahead
 			if(boardString[newi][newj]=='.') {
-				if(newi==0 || newi==boardSize-1) {
+				if(newi==0 || newi==boardSize-1) {//Promotion Logic
 					for(int promoteIndex= 0;promoteIndex<4;promoteIndex++) {
 						addSingleComplexMove(nextMoves,i,j,newi,newj,(char)(boardString[i][j]-('p'-'a') +(promotionPiece[promoteIndex]-'A') ));
 					}
-				} else {	
+				} else {//2 moves at the beginning
+					if(( (i==1 && whitesTurn) || (i==6 && !whitesTurn))
+							&& boardString[newi+dx[dir]][newj+dy[dir]]=='.')
+						addSingleMove(nextMoves, i, j, newi+dx[dir], newj+dy[dir]);
 					addSingleMove(nextMoves, i, j, newi, newj);
 				}
 			}
@@ -189,7 +194,7 @@ public class ChessBoard implements BoardState {
 			boolean capturingBlack = (boardString[newi][newj] >= 'a');
 			if( (whitesTurn && !capturingBlack) || (!whitesTurn && capturingBlack) )
 				return;
-			if(newi==0 || newi==boardSize-1) {
+			if(newi==0 || newi==boardSize-1) {//Promotion Logic
 				for(int promoteIndex= 0;promoteIndex<4;promoteIndex++) {
 					addSingleComplexMove(nextMoves,i,j,newi,newj,(char)(boardString[i][j]-('p'-'a') +(promotionPiece[promoteIndex]-'A') ));
 				}
@@ -205,7 +210,7 @@ public class ChessBoard implements BoardState {
 		char pieceAtNewPlace = boardString[newi][newj];
 		boardString[i][j]='.';
 		boardString[newi][newj]=promotionPiece;
-		nextMoves.add(new ChessBoard(boardString, !whitesTurn, true, blackKingMoved));//TODO: Needs to be agnostic to white or blacks turn
+		nextMoves.add(new ChessBoard(boardString, !whitesTurn, true, blackKingMoved));//TODO: write a set of parellel methods to optimise this part
 		boardString[i][j]=pieceAtOldPlace;
 		boardString[newi][newj]=pieceAtNewPlace;
 	}
@@ -257,7 +262,14 @@ public class ChessBoard implements BoardState {
 		char pieceAtNewPlace = boardString[newi][newj];
 		boardString[i][j]='.';
 		boardString[newi][newj]=pieceAtOldPlace;
-		nextMoves.add(new ChessBoard(boardString, !whitesTurn, true, blackKingMoved));//TODO: Needs to be agnostic to white or blacks turn
+		
+		boolean hasWhiteKingMoved = whiteKingMoved;
+		boolean hasBlackKingMoved = blackKingMoved;
+		if(pieceAtOldPlace=='K')
+			hasWhiteKingMoved=true;
+		if(pieceAtOldPlace=='k')
+			hasBlackKingMoved=true;
+		nextMoves.add(new ChessBoard(boardString, !whitesTurn, hasWhiteKingMoved, hasBlackKingMoved));//TODO: Needs to be agnostic to white or blacks turn
 		boardString[i][j]=pieceAtOldPlace;
 		boardString[newi][newj]=pieceAtNewPlace;
 	}
@@ -269,8 +281,8 @@ public class ChessBoard implements BoardState {
 		array[i2][j2]=temp;
 	}
 
-	private boolean inBoard(int i, int j) {
-		return ( i>=0 && j>=0 && i<boardSize && j<boardSize );
+	public static boolean inBoard(int i, int j) {
+		return ( i>=0 && j>=0 && i<8 && j<8 );
 	}
 
 	/**
