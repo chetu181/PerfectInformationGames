@@ -309,8 +309,8 @@ public class ChessBoard implements BoardState {
 		return null;
 	}
 
-	@Override
-	public String toString() {
+	
+	public String toPrettyString() {
 		String fg,bg;
 		String toReturn = "\n";
 		for(int i=boardSize-1;i>=0;i--) {
@@ -333,7 +333,23 @@ public class ChessBoard implements BoardState {
 			+ " to play..(White score:"+stateScore()*(whitesTurn?1:-1)+")\n\n";
 		return toReturn;
 	}
-
+	
+	@Override
+	public String toString() {
+		String toReturn = "\n";
+		for(int i=boardSize-1;i>=0;i--) {
+			for(int j=boardSize-1;j>=0;j--) {
+				char c= boardString[i][j];
+				toReturn = toReturn+ boardString[i][j]+" " ;
+				
+			}
+			toReturn = toReturn + "\n";
+		}
+		toReturn = toReturn+"_______________________"+(whitesTurn? "white" :"black") 
+			+ " to play..(White score:"+stateScore()*(whitesTurn?1:-1)+")\n\n";
+		return toReturn;
+	}
+	
 	/**
 	 * Gives the move name given two states, output will be something like RxC2, QC3 etc.
 	 * @param currentState
@@ -367,7 +383,7 @@ public class ChessBoard implements BoardState {
 
 
 	@Override
-	public int stateScore() {
+	public int stateScore() {//TODO: calculate this while construction?
 		if(outCome()==Outcome.YOUWON)
 			return 1000;//TODO: is 1000 the right max?
 		else if(outCome()==Outcome.OPPONENTWON)
@@ -387,6 +403,12 @@ public class ChessBoard implements BoardState {
 		for(int i=0;i<8;i++)
 			toReturn+=new String(boardString[i]);
 		return toReturn;
+	}
+
+
+	@Override
+	public int compareTo(BoardState o) {
+		return this.stateScore()-o.stateScore();
 	}
 	
 }

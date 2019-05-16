@@ -164,5 +164,10 @@ public class TicBoard implements BoardState{
 		// TODO Auto-generated method stub
 		return 0;
 	}
+	@Override
+	public int compareTo(BoardState o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 }

@@ -1,7 +1,5 @@
 package com.chaithanya.chess;
 
-import com.chaithanya.gameai.BotPlayer;
-import com.chaithanya.gameai.MiniMaxBotPlayer;
 import com.chaithanya.gameai.Outcome;
 import com.chaithanya.gameai.Player;
 
@@ -12,19 +10,24 @@ public class ChessApp {
 		ChessBoard chessBoard = new ChessBoard(); 
 		
 		//System.out.println(chessBoard.getLegalMoves());
-		//System.exit(0);
+		//System.exit(0);	
 		
-		Player[] players = {new HumanChessPlayer(),new MinimaxChessPlayer(4)};
+		Player[] players = {new MinimaxChessPlayer(6),new MinimaxChessPlayer(2)};
 		System.out.println(chessBoard);
 		int move;
+		long startTime = System.currentTimeMillis();
 		for(move=0; move<1000 && chessBoard.outCome()==Outcome.PLAYING;move++) {
-			System.out.println("Move: "+(move+1));
+			//System.out.println("Move: "+(move+1));
 			ChessBoard nextState= (ChessBoard)players[move%2].move(chessBoard);
 			System.out.println(ChessBoard.chessMoveNotation(chessBoard,nextState));
 			chessBoard=nextState;
 			System.out.println(chessBoard.getBoardString());
-			System.out.println(chessBoard);
-			
+			System.out.println(chessBoard.toPrettyString());
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 		}
 		if(chessBoard.outCome()==Outcome.PLAYING) {
 			System.out.println("Still playing");
@@ -36,6 +39,10 @@ public class ChessApp {
 		else
 			System.out.println("Black wins");
 		System.out.println("after "+move+" Moves");
+		long endTime = System.currentTimeMillis();
+		System.out.println("Game finished in "+(endTime-startTime)/1000.0+" Seconds.");
+		System.out.println("approx "+(endTime-startTime)/1000.0/move+" seconds per move.");
+		
 	}
 
 	private static void testMinMax() {
