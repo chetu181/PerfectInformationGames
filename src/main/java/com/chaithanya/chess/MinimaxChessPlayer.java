@@ -12,9 +12,10 @@ import com.chaithanya.gameai.Player;
 
 public class MinimaxChessPlayer implements Player {
 	int maxDepth;
-	boolean randomise=false;
+	boolean randomise=true;
 	boolean bruteForce =false;
 	boolean orderHeuristic = true;
+	boolean goodEnough = false;
 	/**
 	 * Depth is the number of moves you want to look ahead
 	 * @param maxDepth
@@ -22,6 +23,12 @@ public class MinimaxChessPlayer implements Player {
 	public MinimaxChessPlayer(int maxDepth) {
 		super();
 		this.maxDepth = maxDepth;
+	}
+
+	public MinimaxChessPlayer(int maxDepth, boolean goodEnough) {
+		super();
+		this.maxDepth = maxDepth;
+		this.goodEnough = goodEnough;
 	}
 
 	
@@ -32,6 +39,7 @@ public class MinimaxChessPlayer implements Player {
 		int minNextStateScoreIndex = 0;
 		int minNextStateScore = 2000;
 		List<Integer> minValues  = new ArrayList<>();
+		Collections.sort(nextMoves);
 		for(int i=0;i<nextMoves.size();i++) {
 			int currentScore=2000;
 			int currentScorePruned;
@@ -44,6 +52,7 @@ public class MinimaxChessPlayer implements Player {
 				System.err.println(((ChessBoard)(nextMoves.get(i))).getBoardString());
 			}
 			currentScore=currentScorePruned;
+			
 			if(currentScore < minNextStateScore) {
 				minNextStateScore= currentScore;
 				minNextStateScoreIndex=i;
@@ -52,6 +61,13 @@ public class MinimaxChessPlayer implements Player {
 			} else if (currentScore==minNextStateScore) {
 				minValues.add(i);
 				minNextStateScoreIndex=i;
+			}
+			if(goodEnough) {
+				if(minNextStateScore<=0 && minNextStateScore<=-(s.stateScore())) {
+					long endTime = System.currentTimeMillis();
+					System.out.println("Just goodEnough move. Finished Searching in "+(endTime-startTime)/1000.0+" Seconds.");
+					return nextMoves.get(minNextStateScoreIndex);
+				}
 			}
 		}
 		long endTime = System.currentTimeMillis();
@@ -66,10 +82,9 @@ public class MinimaxChessPlayer implements Player {
 		if(depth==maxDepth)
 			return boardState.stateScore();
 		List<BoardState> nextMoves = boardState.getLegalMoves();
-		if(orderHeuristic) {
+		if(orderHeuristic && depth<maxDepth-1) {
 			Collections.sort(nextMoves);
 		}
-		
 		if(nextMoves.isEmpty())
 			return -1000;
 		int minNextStateScore = 2000;
@@ -110,7 +125,7 @@ public class MinimaxChessPlayer implements Player {
 		ChessBoard chessBoard = new ChessBoard(boardString, true, false, false);
 		System.out.println(chessBoard);
 		long startTime = System.currentTimeMillis();
-		System.out.println(new MinimaxChessPlayer(4).move(chessBoard));
+		System.out.println(new MinimaxChessPlayer(6).move(chessBoard));
 		long endTime = System.currentTimeMillis();
 		System.out.println("Total time taken: "+(endTime-startTime)/1000.0+" seconds");
 		

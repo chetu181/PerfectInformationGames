@@ -12,7 +12,7 @@ public class ChessApp {
 		//System.out.println(chessBoard.getLegalMoves());
 		//System.exit(0);	
 		
-		Player[] players = {new MinimaxChessPlayer(6),new MinimaxChessPlayer(2)};
+		Player[] players = {new MinimaxChessPlayer(6,true),new MinimaxChessPlayer(2)};
 		System.out.println(chessBoard);
 		int move;
 		long startTime = System.currentTimeMillis();
