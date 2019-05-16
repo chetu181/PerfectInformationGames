@@ -1,0 +1,447 @@
+
+r n b q k b n r 
+p p p p p p p p 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+P P P P P P P P 
+R N B Q K B N R 
+_______________________white to play..(White score:0)
+
+
+Move: 1
+e2e3
+Pe3
+RNBKQBNRPPP.PPPP...P............................pppppppprnbkqbnr
+
+r n b q k b n r 
+p p p p p p p p 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . P . . . 
+P P P P . P P P 
+R N B Q K B N R 
+_______________________black to play..(White score:0)
+
+
+Move: 2
+..pc6
+RNBKQBNRPPP.PPPP...P.........................p..ppppp.pprnbkqbnr
+
+r n b q k b n r 
+p p . p p p p p 
+. . p . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . P . . . 
+P P P P . P P P 
+R N B Q K B N R 
+_______________________white to play..(White score:0)
+
+
+Move: 3
+d1f3
+Qf3
+RNBK.BNRPPP.PPPP..QP.........................p..ppppp.pprnbkqbnr
+
+r n b q k b n r 
+p p . p p p p p 
+. . p . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . P Q . . 
+P P P P . P P P 
+R N B . K B N R 
+_______________________black to play..(White score:0)
+
+
+Move: 4
+..pf6
+RNBK.BNRPPP.PPPP..QP......................p..p..pp.pp.pprnbkqbnr
+
+r n b q k b n r 
+p p . p p . p p 
+. . p . . p . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . P Q . . 
+P P P P . P P P 
+R N B . K B N R 
+_______________________white to play..(White score:0)
+
+
+Move: 5
+f1c4
+Bc4
+RN.K.BNRPPP.PPPP..QP.........B............p..p..pp.pp.pprnbkqbnr
+
+r n b q k b n r 
+p p . p p . p p 
+. . p . . p . . 
+. . . . . . . . 
+. . B . . . . . 
+. . . . P Q . . 
+P P P P . P P P 
+R N B . K . N R 
+_______________________black to play..(White score:0)
+
+
+Move: 6
+..nh6
+RN.K.BNRPPP.PPPP..QP.........B..........n.p..p..pp.pp.ppr.bkqbnr
+
+r n b q k b . r 
+p p . p p . p p 
+. . p . . p . n 
+. . . . . . . . 
+. . B . . . . . 
+. . . . P Q . . 
+P P P P . P P P 
+R N B . K . N R 
+_______________________white to play..(White score:0)
+
+
+Move: 7
+g1h3
+Nh3
+R..K.BNRPPP.PPPPN.QP.........B..........n.p..p..pp.pp.ppr.bkqbnr
+
+r n b q k b . r 
+p p . p p . p p 
+. . p . . p . n 
+. . . . . . . . 
+. . B . . . . . 
+. . . . P Q . N 
+P P P P . P P P 
+R N B . K . . R 
+_______________________black to play..(White score:0)
+
+
+Move: 8
+..pd6
+R..K.BNRPPP.PPPPN.QP.........B..........n.p.pp..pp.p..ppr.bkqbnr
+
+r n b q k b . r 
+p p . . p . p p 
+. . p p . p . n 
+. . . . . . . . 
+. . B . . . . . 
+. . . . P Q . N 
+P P P P . P P P 
+R N B . K . . R 
+_______________________white to play..(White score:0)
+
+
+Move: 9
+h3g5
+Ng5
+R..K.BNRPPP.PPPP..QP.........B...N......n.p.pp..pp.p..ppr.bkqbnr
+
+r n b q k b . r 
+p p . . p . p p 
+. . p p . p . n 
+. . . . . . N . 
+. . B . . . . . 
+. . . . P Q . . 
+P P P P . P P P 
+R N B . K . . R 
+_______________________black to play..(White score:0)
+
+
+Move: 10
+..pxg5
+R..K.BNRPPP.PPPP..QP.........B...p......n...pp..pp.p..ppr.bkqbnr
+
+r n b q k b . r 
+p p . . p . p p 
+. . p p . . . n 
+. . . . . . p . 
+. . B . . . . . 
+. . . . P Q . . 
+P P P P . P P P 
+R N B . K . . R 
+_______________________white to play..(White score:-3)
+
+
+Move: 11
+h2h3
+Ph3
+R..K.BNR.PP.PPPPP.QP.........B...p......n...pp..pp.p..ppr.bkqbnr
+
+r n b q k b . r 
+p p . . p . p p 
+. . p p . . . n 
+. . . . . . p . 
+. . B . . . . . 
+. . . . P Q . P 
+P P P P . P P . 
+R N B . K . . R 
+_______________________black to play..(White score:-3)
+
+
+Move: 12
+..nd7
+R..K.BNR.PP.PPPPP.QP.........B...p......n...pp..pp.pn.ppr.bkqb.r
+
+r . b q k b . r 
+p p . n p . p p 
+. . p p . . . n 
+. . . . . . p . 
+. . B . . . . . 
+. . . . P Q . P 
+P P P P . P P . 
+R N B . K . . R 
+_______________________white to play..(White score:-3)
+
+
+Move: 13
+h3h4
+Ph4
+R..K.BNR.PP.PPPP..QP....P....B...p......n...pp..pp.pn.ppr.bkqb.r
+
+r . b q k b . r 
+p p . n p . p p 
+. . p p . . . n 
+. . . . . . p . 
+. . B . . . . P 
+. . . . P Q . . 
+P P P P . P P . 
+R N B . K . . R 
+_______________________black to play..(White score:-3)
+
+
+Move: 14
+..ne5
+R..K.BNR.PP.PPPP..QP....P....B...p.n....n...pp..pp.p..ppr.bkqb.r
+
+r . b q k b . r 
+p p . . p . p p 
+. . p p . . . n 
+. . . . n . p . 
+. . B . . . . P 
+. . . . P Q . . 
+P P P P . P P . 
+R N B . K . . R 
+_______________________white to play..(White score:-3)
+
+
+Move: 15
+f3e2
+Qe2
+R..K.BNR.PPQPPPP...P....P....B...p.n....n...pp..pp.p..ppr.bkqb.r
+
+r . b q k b . r 
+p p . . p . p p 
+. . p p . . . n 
+. . . . n . p . 
+. . B . . . . P 
+. . . . P . . . 
+P P P P Q P P . 
+R N B . K . . R 
+_______________________black to play..(White score:-3)
+
+
+Move: 16
+..nxc4
+R..K.BNR.PPQPPPP...P....P....n...p......n...pp..pp.p..ppr.bkqb.r
+
+r . b q k b . r 
+p p . . p . p p 
+. . p p . . . n 
+. . . . . . p . 
+. . n . . . . P 
+. . . . P . . . 
+P P P P Q P P . 
+R N B . K . . R 
+_______________________white to play..(White score:-6)
+
+
+Move: 17
+e2c4
+Qxc4
+R..K.BNR.PP.PPPP...P....P....Q...p......n...pp..pp.p..ppr.bkqb.r
+
+r . b q k b . r 
+p p . . p . p p 
+. . p p . . . n 
+. . . . . . p . 
+. . Q . . . . P 
+. . . . P . . . 
+P P P P . P P . 
+R N B . K . . R 
+_______________________black to play..(White score:-3)
+
+
+Move: 18
+..pg4
+R..K.BNR.PP.PPPP...P....Pp...Q..........n...pp..pp.p..ppr.bkqb.r
+
+r . b q k b . r 
+p p . . p . p p 
+. . p p . . . n 
+. . . . . . . . 
+. . Q . . . p P 
+. . . . P . . . 
+P P P P . P P . 
+R N B . K . . R 
+_______________________white to play..(White score:-3)
+
+
+Move: 19
+d2d3
+Pd3
+R..K.BNR.PP..PPP...PP...Pp...Q..........n...pp..pp.p..ppr.bkqb.r
+
+r . b q k b . r 
+p p . . p . p p 
+. . p p . . . n 
+. . . . . . . . 
+. . Q . . . p P 
+. . . P P . . . 
+P P P . . P P . 
+R N B . K . . R 
+_______________________black to play..(White score:-3)
+
+
+Move: 20
+..pe6
+R..K.BNR.PP..PPP...PP...Pp...Q..........n..ppp..pp....ppr.bkqb.r
+
+r . b q k b . r 
+p p . . . . p p 
+. . p p p . . n 
+. . . . . . . . 
+. . Q . . . p P 
+. . . P P . . . 
+P P P . . P P . 
+R N B . K . . R 
+_______________________white to play..(White score:-3)
+
+
+Move: 21
+d3d4
+Pd4
+R..K.BNR.PP..PPP...P....Pp..PQ..........n..ppp..pp....ppr.bkqb.r
+
+r . b q k b . r 
+p p . . . . p p 
+. . p p p . . n 
+. . . . . . . . 
+. . Q P . . p P 
+. . . . P . . . 
+P P P . . P P . 
+R N B . K . . R 
+_______________________black to play..(White score:-3)
+
+
+Move: 22
+..rg8
+R..K.BNR.PP..PPP...P....Pp..PQ..........n..ppp..pp....pp.rbkqb.r
+
+r . b q k b r . 
+p p . . . . p p 
+. . p p p . . n 
+. . . . . . . . 
+. . Q P . . p P 
+. . . . P . . . 
+P P P . . P P . 
+R N B . K . . R 
+_______________________white to play..(White score:-3)
+
+
+Move: 23
+b1c3
+Nc3
+R..K.B.R.PP..PPP...P.N..Pp..PQ..........n..ppp..pp....pp.rbkqb.r
+
+r . b q k b r . 
+p p . . . . p p 
+. . p p p . . n 
+. . . . . . . . 
+. . Q P . . p P 
+. . N . P . . . 
+P P P . . P P . 
+R . B . K . . R 
+_______________________black to play..(White score:-3)
+
+
+Move: 24
+..qe7
+R..K.B.R.PP..PPP...P.N..Pp..PQ..........n..ppp..pp.q..pp.rbk.b.r
+
+r . b . k b r . 
+p p . . q . p p 
+. . p p p . . n 
+. . . . . . . . 
+. . Q P . . p P 
+. . N . P . . . 
+P P P . . P P . 
+R . B . K . . R 
+_______________________white to play..(White score:-3)
+
+
+Move: 25
+c3e4
+Ne4
+R..K.B.R.PP..PPP...P....Pp.NPQ..........n..ppp..pp.q..pp.rbk.b.r
+
+r . b . k b r . 
+p p . . q . p p 
+. . p p p . . n 
+. . . . . . . . 
+. . Q P N . p P 
+. . . . P . . . 
+P P P . . P P . 
+R . B . K . . R 
+_______________________black to play..(White score:-3)
+
+
+Move: 26
+..rb8
+R..K.B.R.PP..PPP...P....Pp.NPQ..........n..ppp..pp.q..pp.rbk.br.
+
+. r b . k b r . 
+p p . . q . p p 
+. . p p p . . n 
+. . . . . . . . 
+. . Q P N . p P 
+. . . . P . . . 
+P P P . . P P . 
+R . B . K . . R 
+_______________________white to play..(White score:-3)
+
+
+Move: 27
+e4g3
+Ng3
+R..K.B.R.PP..PPP.N.P....Pp..PQ..........n..ppp..pp.q..pp.rbk.br.
+
+. r b . k b r . 
+p p . . q . p p 
+. . p p p . . n 
+. . . . . . . . 
+. . Q P . . p P 
+. . . . P . N . 
+P P P . . P P . 
+R . B . K . . R 
+_______________________black to play..(White score:-3)
+
+
+Move: 28
+..pg6
+R..K.B.R.PP..PPP.N.P....Pp..PQ..........np.ppp..p..q..pp.rbk.br.
+
+. r b . k b r . 
+p p . . q . . p 
+. . p p p . p n 
+. . . . . . . . 
+. . Q P . . p P 
+. . . . P . N . 
+P P P . . P P . 
+R . B . K . . R 
+_______________________white to play..(White score:-3)
+
+
+Move: 29

@@ -1,0 +1,964 @@
+
+r n b q k b n r 
+p p p p p p p p 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+P P P P P P P P 
+R N B Q K B N R 
+_______________________white to play..(White score:0)
+
+
+Move: 1
+Your Move(white) :b2b3
+Pb3
+RNBKQBNRPPPPPP.P......P.........................pppppppprnbkqbnr
+
+r n b q k b n r 
+p p p p p p p p 
+. . . . . . . . 
+. . . . . . . . 
+. . . . . . . . 
+. P . . . . . . 
+P . P P P P P P 
+R N B Q K B N R 
+_______________________black to play..(White score:0)
+
+
+Move: 2
+Finished Searching in 0.221 Seconds.
+..ph6
+RNBKQBNRPPPPPP.P......P.................p........ppppppprnbkqbnr
+
+r n b q k b n r 
+p p p p p p p . 
+. . . . . . . p 
+. . . . . . . . 
+. . . . . . . . 
+. P . . . . . . 
+P . P P P P P P 
+R N B Q K B N R 
+_______________________white to play..(White score:0)
+
+
+Move: 3
+Your Move(white) :c1b2
+Bb2
+RNBKQ.NRPPPPPPBP......P.................p........ppppppprnbkqbnr
+
+r n b q k b n r 
+p p p p p p p . 
+. . . . . . . p 
+. . . . . . . . 
+. . . . . . . . 
+. P . . . . . . 
+P B P P P P P P 
+R N . Q K B N R 
+_______________________black to play..(White score:0)
+
+
+Move: 4
+Finished Searching in 0.203 Seconds.
+..pa5
+RNBKQ.NRPPPPPPBP......P................pp........pppppp.rnbkqbnr
+
+r n b q k b n r 
+. p p p p p p . 
+. . . . . . . p 
+p . . . . . . . 
+. . . . . . . . 
+. P . . . . . . 
+P B P P P P P P 
+R N . Q K B N R 
+_______________________white to play..(White score:0)
+
+
+Move: 5
+Your Move(white) :b1c3
+Nc3
+RNBKQ..RPPPPPPBP.....NP................pp........pppppp.rnbkqbnr
+
+r n b q k b n r 
+. p p p p p p . 
+. . . . . . . p 
+p . . . . . . . 
+. . . . . . . . 
+. P N . . . . . 
+P B P P P P P P 
+R . . Q K B N R 
+_______________________black to play..(White score:0)
+
+
+Move: 6
+Finished Searching in 0.224 Seconds.
+..nc6
+RNBKQ..RPPPPPPBP.....NP................pp....n...pppppp.rnbkqb.r
+
+r . b q k b n r 
+. p p p p p p . 
+. . n . . . . p 
+p . . . . . . . 
+. . . . . . . . 
+. P N . . . . . 
+P B P P P P P P 
+R . . Q K B N R 
+_______________________white to play..(White score:0)
+
+
+Move: 7
+Your Move(white) :d2d4
+Pd4
+RNBKQ..RPPPP.PBP.....NP.....P..........pp....n...pppppp.rnbkqb.r
+
+r . b q k b n r 
+. p p p p p p . 
+. . n . . . . p 
+p . . . . . . . 
+. . . P . . . . 
+. P N . . . . . 
+P B P . P P P P 
+R . . Q K B N R 
+_______________________black to play..(White score:0)
+
+
+Move: 8
+Finished Searching in 0.292 Seconds.
+..pd5
+RNBKQ..RPPPP.PBP.....NP.....P.......p..pp....n...ppp.pp.rnbkqb.r
+
+r . b q k b n r 
+. p p . p p p . 
+. . n . . . . p 
+p . . p . . . . 
+. . . P . . . . 
+. P N . . . . . 
+P B P . P P P P 
+R . . Q K B N R 
+_______________________white to play..(White score:0)
+
+
+Move: 9
+Your Move(white) :e2e3
+Pe3
+RNBKQ..RPPP..PBP...P.NP.....P.......p..pp....n...ppp.pp.rnbkqb.r
+
+r . b q k b n r 
+. p p . p p p . 
+. . n . . . . p 
+p . . p . . . . 
+. . . P . . . . 
+. P N . P . . . 
+P B P . . P P P 
+R . . Q K B N R 
+_______________________black to play..(White score:0)
+
+
+Move: 10
+Finished Searching in 0.75 Seconds.
+..bf5
+RNBKQ..RPPP..PBP...P.NP.....P.....b.p..pp....n...ppp.pp.rnbkq..r
+
+r . . q k b n r 
+. p p . p p p . 
+. . n . . . . p 
+p . . p . b . . 
+. . . P . . . . 
+. P N . P . . . 
+P B P . . P P P 
+R . . Q K B N R 
+_______________________white to play..(White score:0)
+
+
+Move: 11
+Your Move(white) :h2h3
+Ph3
+RNBKQ..R.PP..PBPP..P.NP.....P.....b.p..pp....n...ppp.pp.rnbkq..r
+
+r . . q k b n r 
+. p p . p p p . 
+. . n . . . . p 
+p . . p . b . . 
+. . . P . . . . 
+. P N . P . . P 
+P B P . . P P . 
+R . . Q K B N R 
+_______________________black to play..(White score:0)
+
+
+Move: 12
+Finished Searching in 1.016 Seconds.
+..na7
+RNBKQ..R.PP..PBPP..P.NP.....P.....b.p..pp........ppp.ppnrnbkq..r
+
+r . . q k b n r 
+n p p . p p p . 
+. . . . . . . p 
+p . . p . b . . 
+. . . P . . . . 
+. P N . P . . P 
+P B P . . P P . 
+R . . Q K B N R 
+_______________________white to play..(White score:0)
+
+
+Move: 13
+Your Move(white) :g2g4
+Pg4
+RNBKQ..R..P..PBPP..P.NP..P..P.....b.p..pp........ppp.ppnrnbkq..r
+
+r . . q k b n r 
+n p p . p p p . 
+. . . . . . . p 
+p . . p . b . . 
+. . . P . . P . 
+. P N . P . . P 
+P B P . . P . . 
+R . . Q K B N R 
+_______________________black to play..(White score:0)
+
+
+Move: 14
+Finished Searching in 0.805 Seconds.
+..be4
+RNBKQ..R..P..PBPP..P.NP..P.bP.......p..pp........ppp.ppnrnbkq..r
+
+r . . q k b n r 
+n p p . p p p . 
+. . . . . . . p 
+p . . p . . . . 
+. . . P b . P . 
+. P N . P . . P 
+P B P . . P . . 
+R . . Q K B N R 
+_______________________white to play..(White score:0)
+
+
+Move: 15
+Your Move(white) :h1h2
+Rh2
+.NBKQ..RR.P..PBPP..P.NP..P.bP.......p..pp........ppp.ppnrnbkq..r
+
+r . . q k b n r 
+n p p . p p p . 
+. . . . . . . p 
+p . . p . . . . 
+. . . P b . P . 
+. P N . P . . P 
+P B P . . P . R 
+R . . Q K B N . 
+_______________________black to play..(White score:0)
+
+
+Move: 16
+Finished Searching in 0.795 Seconds.
+..nf6
+.NBKQ..RR.P..PBPP..P.NP..P.bP.......p..pp.n......ppp.ppnr.bkq..r
+
+r . . q k b . r 
+n p p . p p p . 
+. . . . . n . p 
+p . . p . . . . 
+. . . P b . P . 
+. P N . P . . P 
+P B P . . P . R 
+R . . Q K B N . 
+_______________________white to play..(White score:0)
+
+
+Move: 17
+Your Move(white) :f1g2
+Bg2
+.N.KQ..RRBP..PBPP..P.NP..P.bP.......p..pp.n......ppp.ppnr.bkq..r
+
+r . . q k b . r 
+n p p . p p p . 
+. . . . . n . p 
+p . . p . . . . 
+. . . P b . P . 
+. P N . P . . P 
+P B P . . P B R 
+R . . Q K . N . 
+_______________________black to play..(White score:0)
+
+
+Move: 18
+Finished Searching in 0.824 Seconds.
+..pb6
+.N.KQ..RRBP..PBPP..P.NP..P.bP.......p..pp.n...p..ppp.p.nr.bkq..r
+
+r . . q k b . r 
+n . p . p p p . 
+. p . . . n . p 
+p . . p . . . . 
+. . . P b . P . 
+. P N . P . . P 
+P B P . . P B R 
+R . . Q K . N . 
+_______________________white to play..(White score:0)
+
+
+Move: 19
+Your Move(white) :c3a4
+Na4
+.N.KQ..RRBP..PBPP..P..P..P.bP..N....p..pp.n...p..ppp.p.nr.bkq..r
+
+r . . q k b . r 
+n . p . p p p . 
+. p . . . n . p 
+p . . p . . . . 
+N . . P b . P . 
+. P . . P . . P 
+P B P . . P B R 
+R . . Q K . N . 
+_______________________black to play..(White score:0)
+
+
+Move: 20
+Finished Searching in 0.705 Seconds.
+..bh7
+.N.KQ..RRBP..PBPP..P..P..P..P..N....p..pp.n...p.bppp.p.nr.bkq..r
+
+r . . q k b . r 
+n . p . p p p b 
+. p . . . n . p 
+p . . p . . . . 
+N . . P . . P . 
+. P . . P . . P 
+P B P . . P B R 
+R . . Q K . N . 
+_______________________white to play..(White score:0)
+
+
+Move: 21
+Your Move(white) :c2c4
+Pc4
+.N.KQ..RRBP...BPP..P..P..P..PP.N....p..pp.n...p.bppp.p.nr.bkq..r
+
+r . . q k b . r 
+n . p . p p p b 
+. p . . . n . p 
+p . . p . . . . 
+N . P P . . P . 
+. P . . P . . P 
+P B . . . P B R 
+R . . Q K . N . 
+_______________________black to play..(White score:0)
+
+
+Move: 22
+Finished Searching in 0.835 Seconds.
+..rg8
+.N.KQ..RRBP...BPP..P..P..P..PP.N....p..pp.n...p.bppp.p.n.rbkq..r
+
+r . . q k b r . 
+n . p . p p p b 
+. p . . . n . p 
+p . . p . . . . 
+N . P P . . P . 
+. P . . P . . P 
+P B . . . P B R 
+R . . Q K . N . 
+_______________________white to play..(White score:0)
+
+
+Move: 23
+Your Move(white) :c4d5
+Pxd5
+.N.KQ..RRBP...BPP..P..P..P..P..N....P..pp.n...p.bppp.p.n.rbkq..r
+
+r . . q k b r . 
+n . p . p p p b 
+. p . . . n . p 
+p . . P . . . . 
+N . . P . . P . 
+. P . . P . . P 
+P B . . . P B R 
+R . . Q K . N . 
+_______________________black to play..(White score:1)
+
+
+Move: 24
+Finished Searching in 0.737 Seconds.
+..pg6
+.N.KQ..RRBP...BPP..P..P..P..P..N....P..pppn...p.b.pp.p.n.rbkq..r
+
+r . . q k b r . 
+n . p . p p . b 
+. p . . . n p p 
+p . . P . . . . 
+N . . P . . P . 
+. P . . P . . P 
+P B . . . P B R 
+R . . Q K . N . 
+_______________________white to play..(White score:1)
+
+
+Move: 25
+Your Move(white) :a4c3 
+Nc3
+.N.KQ..RRBP...BPP..P.NP..P..P.......P..pppn...p.b.pp.p.n.rbkq..r
+
+r . . q k b r . 
+n . p . p p . b 
+. p . . . n p p 
+p . . P . . . . 
+. . . P . . P . 
+. P N . P . . P 
+P B . . . P B R 
+R . . Q K . N . 
+_______________________black to play..(White score:1)
+
+
+Move: 26
+Finished Searching in 0.621 Seconds.
+..qb8
+.N.KQ..RRBP...BPP..P.NP..P..P.......P..pppn...p.b.pp.p.n.rbk..qr
+
+r q . . k b r . 
+n . p . p p . b 
+. p . . . n p p 
+p . . P . . . . 
+. . . P . . P . 
+. P N . P . . P 
+P B . . . P B R 
+R . . Q K . N . 
+_______________________white to play..(White score:1)
+
+
+Move: 27
+Your Move(white) :d5d6
+Pd6
+.N.KQ..RRBP...BPP..P.NP..P..P..........pppn.P.p.b.pp.p.n.rbk..qr
+
+r q . . k b r . 
+n . p . p p . b 
+. p . P . n p p 
+p . . . . . . . 
+. . . P . . P . 
+. P N . P . . P 
+P B . . . P B R 
+R . . Q K . N . 
+_______________________black to play..(White score:1)
+
+
+Move: 28
+Finished Searching in 0.773 Seconds.
+..pxd6
+.N.KQ..RRBP...BPP..P.NP..P..P..........pppn.p.p.b.p..p.n.rbk..qr
+
+r q . . k b r . 
+n . p . . p . b 
+. p . p . n p p 
+p . . . . . . . 
+. . . P . . P . 
+. P N . P . . P 
+P B . . . P B R 
+R . . Q K . N . 
+_______________________white to play..(White score:0)
+
+
+Move: 29
+Your Move(white) :g2a8
+Bxa8
+.N.KQ..RR.P...BPP..P.NP..P..P..........pppn.p.p.b.p..p.n.rbk..qB
+
+B q . . k b r . 
+n . p . . p . b 
+. p . p . n p p 
+p . . . . . . . 
+. . . P . . P . 
+. P N . P . . P 
+P B . . . P . R 
+R . . Q K . N . 
+_______________________black to play..(White score:5)
+
+
+Move: 30
+Finished Searching in 0.654 Seconds.
+..qxa8
+.N.KQ..RR.P...BPP..P.NP..P..P..........pppn.p.p.b.p..p.n.rbk...q
+
+q . . . k b r . 
+n . p . . p . b 
+. p . p . n p p 
+p . . . . . . . 
+. . . P . . P . 
+. P N . P . . P 
+P B . . . P . R 
+R . . Q K . N . 
+_______________________white to play..(White score:2)
+
+
+Move: 31
+Your Move(white) :f2f4
+Pf4
+.N.KQ..RR.....BPP..P.NP..PP.P..........pppn.p.p.b.p..p.n.rbk...q
+
+q . . . k b r . 
+n . p . . p . b 
+. p . p . n p p 
+p . . . . . . . 
+. . . P . P P . 
+. P N . P . . P 
+P B . . . . . R 
+R . . Q K . N . 
+_______________________black to play..(White score:2)
+
+
+Move: 32
+Finished Searching in 0.882 Seconds.
+..kd7
+.N.KQ..RR.....BPP..P.NP..PP.P..........pppn.p.p.b.p.kp.n.rb....q
+
+q . . . . b r . 
+n . p k . p . b 
+. p . p . n p p 
+p . . . . . . . 
+. . . P . P P . 
+. P N . P . . P 
+P B . . . . . R 
+R . . Q K . N . 
+_______________________white to play..(White score:2)
+
+
+Move: 33
+Your Move(white) :b2a3
+Ba3
+.N.KQ..RR......PP..P.NPB.PP.P..........pppn.p.p.b.p.kp.n.rb....q
+
+q . . . . b r . 
+n . p k . p . b 
+. p . p . n p p 
+p . . . . . . . 
+. . . P . P P . 
+B P N . P . . P 
+P . . . . . . R 
+R . . Q K . N . 
+_______________________black to play..(White score:2)
+
+
+Move: 34
+Finished Searching in 1.528 Seconds.
+..qc8
+.N.KQ..RR......PP..P.NPB.PP.P..........pppn.p.p.b.p.kp.n.rb..q..
+
+. . q . . b r . 
+n . p k . p . b 
+. p . p . n p p 
+p . . . . . . . 
+. . . P . P P . 
+B P N . P . . P 
+P . . . . . . R 
+R . . Q K . N . 
+_______________________white to play..(White score:2)
+
+
+Move: 35
+Your Move(white) :a1c1
+Rc1
+.N.KQR..R......PP..P.NPB.PP.P..........pppn.p.p.b.p.kp.n.rb..q..
+
+. . q . . b r . 
+n . p k . p . b 
+. p . p . n p p 
+p . . . . . . . 
+. . . P . P P . 
+B P N . P . . P 
+P . . . . . . R 
+. . R Q K . N . 
+_______________________black to play..(White score:2)
+
+
+Move: 36
+Finished Searching in 1.039 Seconds.
+..pb5
+.N.KQR..R......PP..P.NPB.PP.P.........ppppn.p...b.p.kp.n.rb..q..
+
+. . q . . b r . 
+n . p k . p . b 
+. . . p . n p p 
+p p . . . . . . 
+. . . P . P P . 
+B P N . P . . P 
+P . . . . . . R 
+. . R Q K . N . 
+_______________________white to play..(White score:2)
+
+
+Move: 37
+Your Move(white) :c3d5
+Nd5
+.N.KQR..R......PP..P..PB.PP.P.......N.ppppn.p...b.p.kp.n.rb..q..
+
+. . q . . b r . 
+n . p k . p . b 
+. . . p . n p p 
+p p . N . . . . 
+. . . P . P P . 
+B P . . P . . P 
+P . . . . . . R 
+. . R Q K . N . 
+_______________________black to play..(White score:2)
+
+
+Move: 38
+Finished Searching in 1.079 Seconds.
+..nxd5
+.N.KQR..R......PP..P..PB.PP.P.......n.pppp..p...b.p.kp.n.rb..q..
+
+. . q . . b r . 
+n . p k . p . b 
+. . . p . . p p 
+p p . n . . . . 
+. . . P . P P . 
+B P . . P . . P 
+P . . . . . . R 
+. . R Q K . N . 
+_______________________white to play..(White score:-1)
+
+
+Move: 39
+Your Move(white) :d1d2
+Qd2
+.N.K.R..R...Q..PP..P..PB.PP.P.......n.pppp..p...b.p.kp.n.rb..q..
+
+. . q . . b r . 
+n . p k . p . b 
+. . . p . . p p 
+p p . n . . . . 
+. . . P . P P . 
+B P . . P . . P 
+P . . Q . . . R 
+. . R . K . N . 
+_______________________black to play..(White score:-1)
+
+
+Move: 40
+Finished Searching in 1.153 Seconds.
+..qa6
+.N.K.R..R...Q..PP..P..PB.PP.P.......n.pppp..p..qb.p.kp.n.rb.....
+
+. . . . . b r . 
+n . p k . p . b 
+q . . p . . p p 
+p p . n . . . . 
+. . . P . P P . 
+B P . . P . . P 
+P . . Q . . . R 
+. . R . K . N . 
+_______________________white to play..(White score:-1)
+
+
+Move: 41
+Your Move(white) :g1f3
+Nf3
+...K.R..R...Q..PP.NP..PB.PP.P.......n.pppp..p..qb.p.kp.n.rb.....
+
+. . . . . b r . 
+n . p k . p . b 
+q . . p . . p p 
+p p . n . . . . 
+. . . P . P P . 
+B P . . P N . P 
+P . . Q . . . R 
+. . R . K . . . 
+_______________________black to play..(White score:-1)
+
+
+Move: 42
+Finished Searching in 1.249 Seconds.
+..ke7
+...K.R..R...Q..PP.NP..PB.PP.P.......n.pppp..p..qb.pk.p.n.rb.....
+
+. . . . . b r . 
+n . p . k p . b 
+q . . p . . p p 
+p p . n . . . . 
+. . . P . P P . 
+B P . . P N . P 
+P . . Q . . . R 
+. . R . K . . . 
+_______________________white to play..(White score:-1)
+
+
+Move: 43
+Your Move(white) :e3e4
+Pe4
+...K.R..R...Q..PP.N...PB.PPPP.......n.pppp..p..qb.pk.p.n.rb.....
+
+. . . . . b r . 
+n . p . k p . b 
+q . . p . . p p 
+p p . n . . . . 
+. . . P P P P . 
+B P . . . N . P 
+P . . Q . . . R 
+. . R . K . . . 
+_______________________black to play..(White score:-1)
+
+
+Move: 44
+Finished Searching in 1.152 Seconds.
+..nb6
+...K.R..R...Q..PP.N...PB.PPPP.........pppp..p.nqb.pk.p.n.rb.....
+
+. . . . . b r . 
+n . p . k p . b 
+q n . p . . p p 
+p p . . . . . . 
+. . . P P P P . 
+B P . . . N . P 
+P . . Q . . . R 
+. . R . K . . . 
+_______________________white to play..(White score:-1)
+
+
+Move: 45
+Your Move(white) :h2e2
+Re2
+...K.R.....RQ..PP.N...PB.PPPP.........pppp..p.nqb.pk.p.n.rb.....
+
+. . . . . b r . 
+n . p . k p . b 
+q n . p . . p p 
+p p . . . . . . 
+. . . P P P P . 
+B P . . . N . P 
+P . . Q R . . . 
+. . R . K . . . 
+_______________________black to play..(White score:-1)
+
+
+Move: 46
+Finished Searching in 0.957 Seconds.
+..kd8
+...K.R.....RQ..PP.N...PB.PPPP.........pppp..p.nqb.p..p.n.rb.k...
+
+. . . k . b r . 
+n . p . . p . b 
+q n . p . . p p 
+p p . . . . . . 
+. . . P P P P . 
+B P . . . N . P 
+P . . Q R . . . 
+. . R . K . . . 
+_______________________white to play..(White score:-1)
+
+
+Move: 47
+Your Move(white) :e4e5
+Pe5
+...K.R.....RQ..PP.N...PB.PP.P......P..pppp..p.nqb.p..p.n.rb.k...
+
+. . . k . b r . 
+n . p . . p . b 
+q n . p . . p p 
+p p . . P . . . 
+. . . P . P P . 
+B P . . . N . P 
+P . . Q R . . . 
+. . R . K . . . 
+_______________________black to play..(White score:-1)
+
+
+Move: 48
+Finished Searching in 1.079 Seconds.
+..pxe5
+...K.R.....RQ..PP.N...PB.PP.P......p..pppp....nqb.p..p.n.rb.k...
+
+. . . k . b r . 
+n . p . . p . b 
+q n . . . . p p 
+p p . . p . . . 
+. . . P . P P . 
+B P . . . N . P 
+P . . Q R . . . 
+. . R . K . . . 
+_______________________white to play..(White score:-2)
+
+
+Move: 49
+Your Move(white) :d4e5
+Pxe5
+...K.R.....RQ..PP.N...PB.PP........P..pppp....nqb.p..p.n.rb.k...
+
+. . . k . b r . 
+n . p . . p . b 
+q n . . . . p p 
+p p . . P . . . 
+. . . . . P P . 
+B P . . . N . P 
+P . . Q R . . . 
+. . R . K . . . 
+_______________________black to play..(White score:-1)
+
+
+Move: 50
+Finished Searching in 1.476 Seconds.
+..ke8
+...K.R.....RQ..PP.N...PB.PP........P..pppp....nqb.p..p.n.rbk....
+
+. . . . k b r . 
+n . p . . p . b 
+q n . . . . p p 
+p p . . P . . . 
+. . . . . P P . 
+B P . . . N . P 
+P . . Q R . . . 
+. . R . K . . . 
+_______________________white to play..(White score:-1)
+
+
+Move: 51
+Your Move(white) :a3e8
+Your Move is not Legal
+Invalid Input.
+a3e8        
+Your Move is not Legal
+Invalid Input.
+a3f8    
+Bxf8
+...K.R.....RQ..PP.N...P..PP........P..pppp....nqb.p..p.n.rBk....
+
+. . . . k B r . 
+n . p . . p . b 
+q n . . . . p p 
+p p . . P . . . 
+. . . . . P P . 
+. P . . . N . P 
+P . . Q R . . . 
+. . R . K . . . 
+_______________________black to play..(White score:2)
+
+
+Move: 52
+Finished Searching in 1.21 Seconds.
+..kxf8
+...K.R.....RQ..PP.N...P..PP........P..pppp....nqb.p..p.n.rk.....
+
+. . . . . k r . 
+n . p . . p . b 
+q n . . . . p p 
+p p . . P . . . 
+. . . . . P P . 
+. P . . . N . P 
+P . . Q R . . . 
+. . R . K . . . 
+_______________________white to play..(White score:-1)
+
+
+Move: 53
+Your Move(white) :c1c7
+Rxc7
+...K.......RQ..PP.N...P..PP........P..pppp....nqb.p..R.n.rk.....
+
+. . . . . k r . 
+n . R . . p . b 
+q n . . . . p p 
+p p . . P . . . 
+. . . . . P P . 
+. P . . . N . P 
+P . . Q R . . . 
+. . . . K . . . 
+_______________________black to play..(White score:0)
+
+
+Move: 54
+Finished Searching in 0.84 Seconds.
+..nc8
+...K.......RQ..PP.N...P..PP........P..pppp.....qb.p..R.n.rk..n..
+
+. . n . . k r . 
+n . R . . p . b 
+q . . . . . p p 
+p p . . P . . . 
+. . . . . P P . 
+. P . . . N . P 
+P . . Q R . . . 
+. . . . K . . . 
+_______________________white to play..(White score:0)
+
+
+Move: 55
+Your Move(white) :d2d7
+Qd7
+...K.......R...PP.N...P..PP........P..pppp.....qb.p.QR.n.rk..n..
+
+. . n . . k r . 
+n . R Q . p . b 
+q . . . . . p p 
+p p . . P . . . 
+. . . . . P P . 
+. P . . . N . P 
+P . . . R . . . 
+. . . . K . . . 
+_______________________black to play..(White score:0)
+
+
+Move: 56
+Finished Searching in 0.962 Seconds.
+..pg5
+...K.......R...PP.N...P..PP......p.P..ppp......qb.p.QR.n.rk..n..
+
+. . n . . k r . 
+n . R Q . p . b 
+q . . . . . . p 
+p p . . P . p . 
+. . . . . P P . 
+. P . . . N . P 
+P . . . R . . . 
+. . . . K . . . 
+_______________________white to play..(White score:0)
+
+
+Move: 57
+Your Move(white) :d7f7
+Qxf7
+...K.......R...PP.N...P..PP......p.P..ppp......qb.Q..R.n.rk..n..
+
+. . n . . k r . 
+n . R . . Q . b 
+q . . . . . . p 
+p p . . P . p . 
+. . . . . P P . 
+. P . . . N . P 
+P . . . R . . . 
+. . . . K . . . 
+_______________________black to play..(White score:1)
+
+
+Move: 58
+Finished Searching in 1.576 Seconds.
+..qg6
+...K.......R...PP.N...P..PP......p.P..pppq......b.Q..R.n.rk..n..
+
+. . n . . k r . 
+n . R . . Q . b 
+. . . . . . q p 
+p p . . P . p . 
+. . . . . P P . 
+. P . . . N . P 
+P . . . R . . . 
+. . . . K . . . 
+_______________________white to play..(White score:1)
+
+
+Move: 59
+Your Move(white) :f7f8
+Qxf8
+...K.......R...PP.N...P..PP......p.P..pppq......b....R.n.rQ..n..
+
+. . n . . Q r . 
+n . R . . . . b 
+. . . . . . q p 
+p p . . P . p . 
+. . . . . P P . 
+. P . . . N . P 
+P . . . R . . . 
+. . . . K . . . 
+_______________________black to play..(White score:1000)
+
+
+White wins
+after 59 Moves
